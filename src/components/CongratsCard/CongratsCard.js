@@ -6,15 +6,13 @@ class CongratsCard extends Component {
     render() {
         return (
             <div className="bg-container">
-                <div>
-                    <h1>Congratulations</h1>
-                </div>
+                <h1 className="heading">CinEuphoria Awards</h1>
                 <div className="congrats-card">
-                    <div>
-                        <img src="https://i.ibb.co/LkTRMb1/tobey-maguire-joins-avengers-kang-dynasty-as-spider-man-00001.jpg"/>
-                    </div>
+                    <img src="https://i.postimg.cc/vBdN78HF/wallpaperflare-com-wallpaper.jpg" alt='spider-man' className="img"/>
                     <h1 className="name">Tobey Maguire</h1>
-                    <p className="para">Tobey Maguire is an American actor and producer. He gained international prominence for his role as Peter Parker / Spider-Man in the Spider-Man trilogy, which was directed by Sam Raimi, as well as the Marvel Cinematic Universe film Spider-Man: No Way Home.</p>
+                    <p className="para">
+                    Best Actor – International Competition - 2011
+                    </p>
                 </div>
             </div>
         )
